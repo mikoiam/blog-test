@@ -1,0 +1,46 @@
+baseurl = "https://mikoiam.github.io/"
+title = "Dev and soft stuff"
+copyright = "Copyright &copy; 2017 - Michał Kozłowski"
+canonifyurls = true
+#theme = "nederburg"
+theme = "hyde"
+#theme = "ghostwriter"
+#theme = "hugo-bootstrap"
+#theme = "retroful"
+
+paginate = 10
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+SectionPagesMenu = "main"
+
+[author]
+    name = ""
+    github = "mikoiam"
+    gitlab = ""
+    linkedin = ""
+    facebook = ""
+    twitter = ""
+    instagram = ""
+
+[params]
+    description = "Writing things down before I forget them..."
+    tagline = "testing blogging platforms"
+ #   themeColor = "theme-base-08"
+
+[[menu.main]]
+    name = "Home" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/" #URL address
+[[menu.main]]
+    name = "Posts"
+    weight = 20
+    url = "/posts/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -110
+  identifier = "tag"
+  url = "/tags/"
